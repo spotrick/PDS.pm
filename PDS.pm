@@ -148,7 +148,7 @@ Returns the group of the logged-in user.
 
 sub group {
 	my $pds = shift;
-	return $pds->{bor_info}->{group};
+	return $pds->{'bor-info'}->{group};
 }
 
 1;
